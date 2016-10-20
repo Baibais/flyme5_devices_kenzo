@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="config_display_video_quality_toast">false</bool>
+    <bool name="config_call_session_event_toast">false</bool>
+</resources>
