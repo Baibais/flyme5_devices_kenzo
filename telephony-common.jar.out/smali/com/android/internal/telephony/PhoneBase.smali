@@ -22,7 +22,7 @@
 .field public static final CF_ENABLED:Ljava/lang/String; = "cf_enabled_key"
 
 .field public static final CF_ENABLED_VIDEO:Ljava/lang/String; = "cf_enabled_key_video"
-
+.field protected mRadioAccessFamily:I
 .field public static final CLIR_KEY:Ljava/lang/String; = "clir_key"
 
 .field public static final DATA_DISABLED_ON_BOOT_KEY:Ljava/lang/String; = "disabled_on_boot_key"
@@ -9240,4 +9240,14 @@
     .line 1296
     :cond_0
     return-void
+.end method
+
+.method public getRadioAccessFamily()I
+    .locals 1
+
+    .prologue
+    .line 2121
+    iget v0, p0, Lcom/android/internal/telephony/PhoneBase;->mRadioAccessFamily:I
+
+    return v0
 .end method

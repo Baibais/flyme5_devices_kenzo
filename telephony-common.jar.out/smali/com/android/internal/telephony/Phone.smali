@@ -470,6 +470,9 @@
 .method public abstract getMute()Z
 .end method
 
+.method public abstract getRadioAccessFamily()I
+.end method
+
 .method public abstract getNai()Ljava/lang/String;
 .end method
 
