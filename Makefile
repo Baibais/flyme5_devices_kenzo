@@ -56,7 +56,8 @@ vendor_modify_images := boot
 #-----------------------------------------------------------------------------
 vendor_saved_apps := Bluetooth KeyChain HTMLViewer UserDictionaryProvider BackupRestoreConfirmation \
                      FusedLocation PrintSpooler SharedStorageBackup  ExternalStorageProvider InputDevices \
-                     ProxyHandler Shell DefaultContainerService QFingerprintService Stk TimeService  Shell SnapdragonCamera 
+                     ProxyHandler Shell DefaultContainerService QFingerprintService Stk TimeService  Shell SnapdragonCamera \
+                     com.qualcomm.location
 
 ##############################################################################
 # The value decides which vendor apk you want to modify.
